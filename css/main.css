@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fixed-class {
+    clear: both;
+}
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+/* Start Container Section  */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+/* End Container Section  */
+
+
+/* Start home section  */
+.home {
+    height: 100vh;
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.home .nav {
+    padding: 15px;
+}
+.home .nav img {
+    width: 15%;
+    float: left;
+    vertical-align: middle;
+}
+.home .nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    margin-top: -40px;
+}
+.home .nav ul li {
+    float: left;
+    padding: 10px;
+}
+.home .nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.home .nav ul li:hover a {
+    color: #8E7754;
+}
+
+.home .des {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 17%;
+}
+.home .des p {
+    padding: 10px;
+    font-size: 22px;
+}
+.home .des h1 {
+    font-size: 76px;
+    font-weight: 400;   
+}
+.home .des button {
+    padding: 15px;
+    background-color: #8E7754;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    margin: 10px 5px;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 600;
+}
+.home .des button:first-of-type {
+    border: none;
+}
+.home .des button:last-child {
+    background-color: transparent;
+}
+.home .des button:hover {
+    background-color: #FFF;
+    color: #000;
+}
+/* End home section  */
+/* Start About Section  */
+.about {
+    padding: 100px 0;
+}
+.about .img_about {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.about img{
+    width: 100%;
+}
+.about .info {
+    width: 49%;
+    display: inline-block;
+    padding-left: 80px;
+    vertical-align: middle;
+}
+.about .info h2 {
+    color: #303030;
+    font-size: 32px;
+}
+.about .info p {
+    color: #686868;
+    font-size: 17px;
+    line-height: 31.62px;
+    margin: 10px 0;
+}
+.about .info .info-about{
+    margin: 10px 0;
+}
+.about .info .info-about .icon-about {
+    border-radius: 50%;
+    border: 1px solid #8E7754;
+    color: #8E7754;
+    display: inline-block;
+}
+.about .info .info-about .icon-about i {
+    font-size: 18px;
+    color: #8E7754;
+    padding: 15px;
+}
+.about .info .info-about p {
+    display: inline-block;
+    color: #686868;
+    font-size: 17px;
+    padding: 0 10px;
+}
+/* End About Section  */
+/* Start Location Section  */
+.location {
+    background-color: #F8F8F8;
+    padding: 100px 0;
+}
+.location .info {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+.location .info h2 {
+    color: #303030;
+    font-size: 32px;
+    margin: 10px 0;
+}
+.location .info p {
+    color: #686868;
+    font-size: 17px;
+    line-height: 1.8;
+    padding-right: 80px;
+}
+.location .image-location {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+.location .image-location img {
+    width: 100%;
+} 
+/* End Location Section  */
+/* Start Category Section  */
+.category {
+    padding: 100px 0;
+    text-align: center;
+}
+.category h2 {
+    color: #303030;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.category p {
+    color: #888888;
+    font-size: 17px;
+    margin: 20px 0;
+    margin-bottom: 60px;
+}
+.category .item {
+    float: left;
+    width: 33.3333%;
+}
+.category .item img {
+    width: 90%;
+}
+.category .item h3 {
+    color: #303030;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.category .item p {
+    color: #888888;
+    font-size: 17px;
+    margin: 10px 0;
+    line-height: 1.8;
+    padding: 0 20px;
+}
+/* End Category Section  */
+/* Start Contact Section  */
+.contact {
+    padding: 100px 0;
+    background-color: #F8F8F8;
+}
+.contact .contact-info {
+    width: 50%;
+    float: left;
+}
+.contact .contact-info h2 {
+    color: #303030;
+    font-size: 32px;
+    margin: 10px 0;
+}
+.contact .contact-info p {
+    color: #686868;
+    font-size: 17px;
+    line-height: 1.8;
+    margin: 20px 0;
+    padding-right: 30px;
+}
+.contact .contact-info h5 {
+    color: #686868;
+    font-size: 17px;
+    margin: 10px 0;
+}
+.contact .contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+.contact .contact-info ul li {
+    padding: 10px 0;
+}
+.contact .contact-info ul li i {
+    border-radius: 50%;
+    border: 1px solid #8E7754;
+    float: left;
+    padding: 15px;
+    color: #8E7754;
+}
+.contact .contact-info ul li span{
+    float: left;
+    padding: 15px;
+    color: #8E7754;
+}
+/* End Contact Section  */
+/* Start section Footer */
+.footer {
+    padding: 50px 0;
+    background-color: #403D38;
+}
+.footer .info{
+    float: left;
+    width: 25%;
+    margin: 0;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+.footer .info h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+.footer .info p {
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.footer .info h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+.footer .info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer .info ul li {
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.8;
+    border-bottom: 1px solid #585050;
+    padding: 10px 0;
+}
+.footer .info .bg_img {
+    background-image: url('');
+}
+.footer .info .bg_img li span{
+    padding: 0 10px;
+}
+/* End section Footer */
+/* Start FoooterBottom Section  */
+.footer_bottom {
+    padding: 50px 0;
+    background-color: #353330;
+    color: #777777;
+    text-align: center;
+}
+.footer_bottom p {
+    font-size: 17px;
+    margin: 15px 0;
+    padding-bottom: 20px;
+}
+.footer_bottom ul {
+    list-style: none;
+}
+.footer_bottom ul li {
+    display: inline;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid #484540;
+    background-color: #484540;
+    cursor: pointer;
+}
+.footer_bottom ul li i {
+    color: #8c8a86;
+}
+/* End FoooterBottom Section  */
